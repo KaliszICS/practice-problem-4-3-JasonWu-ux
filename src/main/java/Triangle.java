@@ -13,6 +13,11 @@ class Triangle {
 		this.side3 = side3;
 	}
 
+	//This is the same as the one above
+	// public Triangle(double a, double b, double c) {
+
+	// }
+
 	public Triangle(String a, int b, int c) {
 		//unique becuase the types of the parameters are not the same
 	}
@@ -38,5 +43,15 @@ class Triangle {
 		this.side1 = side1;
 		this.side2 = 3;
 		this.side3 = 3;		
+	}
+
+	public Triangle(double side1, double side2) {
+		this.side1 = side1;
+		this.side2 = side2;
+		this.side3 = 3;		
+	}
+
+	public double getSide1() {
+		return this.side1;
 	}
 }
